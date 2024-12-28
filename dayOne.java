@@ -119,7 +119,7 @@ public class dayOne{
         }
         
         public static void main(String[] args){
-        dayOne obj = new dayOne("dayOne_in.txt");
+        dayOne obj = new dayOne("data/dayOne_in.txt");
         System.out.println(obj.calculateSimilarityScore(obj.getLeftList(), obj.getRightList()));
         
     }
